@@ -9,6 +9,7 @@ LAST_PORT=1200
 USERNAME="onet"
 PASSWORD="onet"
 
+sudo apt-get install -y squid
 INTERFACE="eth0"
 # Generate hashed password
 HASHED_PASSWORD=$(openssl passwd -apr1 "$PASSWORD")
